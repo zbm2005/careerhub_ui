@@ -27,6 +27,7 @@ Copy code
 git clone https://github.com/your-username/career-hub.git
 Install dependencies:
 Copy code
+
 npm install
 Start the development server:
 Copy code
@@ -52,7 +53,7 @@ License
 Career Hub is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-If you have any questions or comments about Career Hub, please contact us at your-email@example.com.
+If you have any questions or comments about Career Hub, please contact us at pandavas2024@gmail.com.
 
 
 
