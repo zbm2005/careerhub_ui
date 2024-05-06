@@ -1,4 +1,4 @@
-Career Hub
+#Career Hub
 Career Hub is a website that provides job and internship opportunities for job seekers. It is a one-stop platform for users to find their dream job or internship.
 
 Features
