@@ -1,0 +1,106 @@
+    .circle {
+            height: 50vmin;
+            width: 50vmin;
+            position: absolute;
+            margin: 0 auto;
+            top: 50%;
+            left:50%;
+            transform: translate3D(-50%,-50%,0);
+        }
+        .circle {
+            box-sizing: border-box;
+            position:absolute;
+            width: 100px;
+            height:100px;
+            border: 2.5vmin solid transparent;
+            border-radius: 115% 140% 145% 110%/125% 140% 110% 125%;
+            mix-blend-mode: screen;
+        }
+        .circle:nth-child(1){
+            border-color: #ffbe0b; 
+            transform-origin: 50% 50%;
+            animation:spin1 5.5s linear infinite;
+
+        }
+        .circle:nth-child(2){
+            border-color: #fb5607; 
+            transform-origin: 50% 50%;
+            animation: spin2 5.5s linear infinite;
+
+        }
+        .circle:nth-child(3){
+            border-color: #8338ec; 
+            transform-origin: 50% 50%;
+            animation:spin3 5.5s linear infinite;
+
+        }
+        .circle:nth-child(4){
+            border-color: #3a86ff; 
+            transform-origin: 50% 50%;
+            animation:spin4 5.5s linear infinite;
+
+        }
+        .circle:nth-child(5){
+            border-color: #22bc25; 
+            transform-origin: 50% 50%;
+            animation:spin5 5.5s linear infinite;
+
+        }
+        .circle:nth-child(6){
+            border-color: #1752dc; 
+            transform-origin: 50% 50%;
+            animation:spin6 5.5s linear infinite;
+
+         } 
+       @keyframes spin1 {
+        0%{
+            transform:rotate(0);
+        }
+        100% {
+            transform:rotate(360deg);
+        }
+       }
+       @keyframes spin2 {
+        0%{
+            transform:rotate(72deg);
+        }
+        100%{
+
+            transform : rotate(-217deg);
+        }
+       }
+       @keyframes spin3{
+        0%{
+            transform : rotate(110deg);
+        }
+        100%{
+            transform : rotate(-144deg);
+        }
+       }
+       @keyframes spin4{
+        0%{
+            transform : rotate(216deg);
+        }
+        100%{
+             transform : rotate(-70deg);
+        }
+       }
+       @keyframes spin5{
+        0%{
+            transform : rotate(206deg);
+        }
+        100%{
+             transform : rotate(70deg);
+        }
+       }
+       @keyframes spin6{
+        0%{
+            transform : rotate(254deg);
+        }
+        100%{
+             transform : rotate(-55deg);
+        }
+       }
+      
+    
+      
