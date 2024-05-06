@@ -1,59 +1,66 @@
-#Career Hub
-Career Hub is a website that provides job and internship opportunities for job seekers. It is a one-stop platform for users to find their dream job or internship.
+# CareerHub
 
-Features
-Search for jobs and internships by keyword, location, and category
+*CareerHub is a website that provides job and internship opportunities for job seekers. It is a one-stop platform for users to find their dream job or internship.*
+
+# Features
+1. Search for jobs and internships by keyword, location, and category
 Filter results by date, relevance, and salary
-Create a profile to save job searches and applications
+2. Create a profile to save job searches and applications
 Receive job alerts via email
-Apply for jobs and internships directly from the website
-Access resources for job seekers, including resume templates, interview tips, and career advice
-Technology Stack
-HTML
-CSS
-JavaScript
-React
-Node.js
-Express
-MongoDB
-
-Installation
+3. Apply for jobs and internships directly from the website
+4. Access resources for job seekers, including resume templates, interview tips, and career advice
+# Technology Stack
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Express
+- MongoDB
+ 
+# Installation
 
 
 To install Career Hub, follow these steps:
 
-Clone the repository:
-Copy code
+1. Clone the repository:
+*Copy code
 git clone https://github.com/your-username/career-hub.git
 Install dependencies:
-Copy code
+Copy code*
 
-npm install
-Start the development server:
+2. npm install
+*Start the development server:
 Copy code
 npm start
-Open your browser and navigate to http://localhost:3000
-Usage
+Open your browser and navigate to http://localhost:3000*
+
+# Usage
 To use Career Hub, follow these steps:
 
 Search for jobs and internships using the search bar on the homepage.
-Filter results by date, relevance, and salary.
-Create a profile to save job searches and applications.
-Apply for jobs and internships directly from the website.
-Access resources for job seekers, including resume templates, interview tips, and career advice.
-Contributing
-We welcome contributions to Career Hub! To contribute, follow these steps:
+1. Filter results by date, relevance, and salary.
 
-Fork the repository.
-Create a new branch for your changes.
-Make your changes and commit them.
-Push your changes to your forked repository.
-Create a pull request.
-License
-Career Hub is licensed under the MIT License. See the LICENSE file for details.
+2. Create a profile to save job searches and applications.
 
-Contact
-If you have any questions or comments about Career Hub, please contact us at pandavas2024@gmail.com.
+3. Apply for jobs and internships directly from the website.
+
+4. Access resources for job seekers, including resume templates, interview tips, and career advice.
+
+# Contribution
+*We welcome contributions to CareerHub! To contribute, follow these steps:*
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request.
+    
+# License
+*Career Hub is licensed under the **GNU V3** License. See the LICENSE file for details.*
+
+# Contact
+*If you have any questions or comments about CareerHub, please contact us at pandavas2024@gmail.com.*
 
 
 
