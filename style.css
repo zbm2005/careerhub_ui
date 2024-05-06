@@ -1,0 +1,9 @@
+* {
+    text-transform: capitalize;
+}
+
+#myFile {
+    border: 1px solid black;
+    background-color: #ccc;
+    padding: 10px;
+}
