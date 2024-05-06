@@ -17,24 +17,28 @@ Node.js
 Express
 MongoDB
 
-Installation
+#AInstallation
 
 
 To install Career Hub, follow these steps:
 
-Clone the repository:
+1.Clone the repository:
 Copy code
 git clone https://github.com/your-username/career-hub.git
-Install dependencies:
+
+2.Install dependencies:
 Copy code
 
-npm install
+3.npm install
 Start the development server:
 Copy code
 npm start
-Open your browser and navigate to http://localhost:3000
-Usage
-To use Career Hub, follow these steps:
+4.Open your browser and navigate to http://localhost:3000
+
+#AUsage
+
+
+#ATo use Career Hub, follow these steps:
 
 Search for jobs and internships using the search bar on the homepage.
 Filter results by date, relevance, and salary.
@@ -52,7 +56,8 @@ Create a pull request.
 License
 Career Hub is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+#AContact
+
 If you have any questions or comments about Career Hub, please contact us at pandavas2024@gmail.com.
 
 
