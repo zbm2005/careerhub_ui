@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page1</title>
+    <link rel="animation" href="style.html">
+</head>
+
+<body>
+<style>
+.blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: #d946ef;
+    width: 25vmax;
+    z-index: -1;
+    animation: move 10s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  path {
+      /* border: 8px solid #fff; */
+      /* stroke: #fff; */
+      /* box-shadow: -5px -5px 5px #888;  */
+      filter: drop-shadow( 4px 3px 3px rgba(120, 115, 115, 0.7));
+  
+  }
+  
+  @keyframes move {
+    0%   { transform: scale(1)   translate(8px, -25px); }
+    38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+    40%  { transform: scale(0.8, 1) translate(80vw, 20vh) rotate(160deg); }
+    78%  { transform: scale(1.3) translate(0vw, 20vh) rotate(-20deg); }
+    80%  { transform: scale(1.3) translate(0vw, 20vh) rotate(-20deg); }
+    100% { transform: scale(1)   translate(8px, -25px); }
+  }
+      </style>
+      <div class="blob">
+          <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+          <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+          </svg>
+        </div>
+<div class="bg-white p-8 rounded-lg shadow-md">
+<h2 class="text-2xl font-bold mb-6 text-center">Welcome to Career Hub</h2>
+<form class="space-y-4">
+    <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+        <input type="email" name="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-4 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="example@example.com">
+    </div>
+    <div>
+        <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+        <input type="password" name="password" id="password" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-4 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="********">
+    </div>
+    <div class="flex items-center justify-between">
+        <div class="flex items-center">
+            <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 border border-gray-300 rounded mr-2 focus:ring-indigo-500">
+            <label for="remember-me" class="text-sm font-medium text-gray-700">Remember me</label>
+        </div>
+        <a href="#" class="text-sm font-medium text-indigo-600 hover:underline">Forgot password?</a>
+    </div>
+    <button type="submit" class="w-full bg-indigo-600 border border-transparent rounded-md py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Login</button>
+</form>
+<p class="text-center mt-4 text-sm font-medium text-gray-500">Don't have an account? <a href="#" class="text-indigo-600 hover:underline">Sign up</a></p>
+</div>
+
+    <div id="basic">
+        <!-- registration page number 1 -->
+        <h1>Build your Resume</h1>
+        <div id="basicinfo">
+            <fieldset>
+                <legend>
+                    <h2>Basic Information</h2>
+                </legend>
+                <form action="">
+                    <label for="img1">Add your image here</label>
+                    <input type="file" id="myFile" name="filename" required>
+                    <br><br>
+                    <label for="Firstname1">First Name</label>
+                    <input type="text" placeholder="First name" required>
+                    <br><br>
+                    <label for="lastname1">last Name</label>
+                    <input type="text" placeholder="last Name" required>
+                    <br><br>
+                    <label for="email1">E-mail</label>
+                    <input type="email" placeholder="e-mail address" required>
+                    <br><br>
+                    <label for="tel">Phone Number:</label>
+                    <input type="tel" name="tel" placeholder="+91 XXXXX-XXXXX" required>
+                    <br><br>
+
+
+                    <div id="address">
+                        <label for="address"></label>
+                        <legend>
+                            <Address>Enter your address </Address>
+                        </legend>
+                        <textarea id="address1" name="address1" rows="5" cols="33" placeholder="State,city zip-code....." required></textarea><br><br>
+                        <label for="bio1"><legend>tell us about yourself (optional)</legend></label>
+                        <textarea id="bio1" name="bio1" rows="5" cols="33" placeholder="bio....."></textarea>
+                        <br></br>
+                        <label for="portfolio">portfolio (optional)</label>
+                        <input type="text" id="portfolio">
+                        <br><br>
+                        <label for="label">label (optional)</label>
+                        <input type="text" id="label">
+                        <br><br>
+                        <label for="referral">referral (optional)</label>
+                        <input type="text" id="referral">
+                        <br><br>
+                </form>
+            </fieldset>
+            </div>
+        </div>
+    </div>
+</s>
+    <!-- registration page number 2 -->
+    <div id="page1">
+        <div id="Edu">
+            <fieldset>
+                <legend>
+                    <h2>Education & Experience</h2>
+                </legend>
+                <form>
+                    <label for="institution2">Institution:</label><br>
+                    <input type="text" id="institution2" placeholder="*University*" name="institution2"><br>
+
+                    <label for="url2">URL:</label><br>
+                    <input type="url" id="url2" name="url2" placeholder="*https://institution.com/*"><br>
+
+                    <label for="area2">Area:</label><br>
+                    <input type="text" id="area" name="area2" placeholder="*Software Development*"><br>
+
+                    <label for="studyType2">Study Type:</label><br>
+                    <input type="text" id="studyType2" name="studyType2" placeholder="*Bachelor*"><br>
+
+                    <label for="startDate2 ">Start Date:</label><br>
+                    <input type="date" id="startDate2 " name="startDate2 "><br>
+
+                    <label for="endDate2 ">End Date:</label><br>
+                    <input type="date" id="endDate2 " name="endDate2 "><br>
+
+                    <label for="score2 ">Score:</label><br>
+                    <input type="tel " id="score2 " name="score2 " placeholder="**% "><br><br>
+
+
+                    <!-- <h2>Courses:</h2>
+                    <label for="course1Title ">Course 1 Title:</label><br>
+                    <input type="text " id="course1Title " name="course1Title "><br>
+                    <label for="course1Description ">Course 1 Description:</label><br>
+                    <input type="text " id="course1Description " name="course1Description "><br>
+                    <label for="course2Title ">Course 2 Title:</label><br>
+                    <input type="text " id="course2Title " name="course2Title "><br>
+                    <label for="course2Description ">Course 2 Description:</label><br>
+                    <input type="text " id="course2Description " name="course2Description "><br> -->
+
+                    <h2>WORK Experience</h2>
+
+                    <label for="name ">Company Name:</label><br>
+                    <input type="text " id="name " name="name " placeholder="*Company Name* "><br>
+
+                    <label for="position ">Position:</label><br>
+                    <input type="text " id="position " name="position " placeholder="*President* "><br>
+
+                    <label for="url ">Company URL:</label><br>
+                    <input type="url " id="url " name="url " placeholder="*https://company.com* "><br>
+
+                    <label for="startDate ">Start Date:</label><br>
+                    <input type="date" id="startDate " name="startDate "><br>
+
+                    <label for="endDate ">End Date:</label><br>
+                    <input type="date" id="endDate " name="endDate "><br>
+
+                    <label for="summary ">Summary:</label><br>
+                    <textarea id="summary " name="summary " placeholder="Description… "></textarea><br><br>
+
+                    <h2>Highlights:</h2>
+
+                    <label for="highlight1 ">Highlight 1:</label><br>
+                    <input type="text " id="highlight1 " name="highlight1 " placeholder="Started the company "><br>
+
+                    <label for="highlight2 ">Highlight 2:</label><br>
+                    <input type="text " id="highlight2 " name="highlight2" placeholder="Started the company"><br><br>
+
+
+
+                    <h2>certificates</h2>
+                    <label for="name23">Name of certificate</label><br>
+                    <input type="text" name="name23" id="name23"><br>
+
+                    <label for="date23">date</label><br>
+                    <input type="date" name="name23" id="name23"><br>
+
+                    <label for="issuer">issuer</label><br>
+                    <input type="text " name="issuer" id="issuer" placeholder="company"><br>
+
+                    <label for="url23">Company URL:</label><br>
+                    <input type="url " id="url23 " name="url23" placeholder="*https://certificate.com*"><br>
+                </form>
+
+        </div>
+    </div>
+
+    <div id="PAGE3">
+        <!-- registration page number 3 -->
+        <fieldset>
+            <legend>
+                <h2>skills & interest</h2>
+            </legend>
+            <form action=" ">
+                <h3>ADD your skills here:</h3>
+                <div id="keywords-container">
+                    <label for="name">Skill Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="level">Level:</label><br>
+                    <select id="level" name="level">
+                    <option value="1">Level 1</option>
+                    <option value="2">Level 2</option>
+                    <option value="3">Level 3</option>
+                    <option value="4">Level 4</option>
+                    <option value="5">Level 5</option>
+                </select><br>
+                    <label for="keywords"></label>
+                    <input type="text" id="keywords" name="keywords" placeholder="HTML,CSS,JAVASCRIPT">
+                </div>
+                <button type="button" id="add-keyword">+</button>
+
+            </form>
+            <!-- (bhaskar)isme asa code karke edit kr ki jaise ek text box ay rha h n , usme yeh 3no ayee sklls name , level or keywords -->
+            <script>
+                document.getElementById('add-keyword').addEventListener('click', function() {
+                    var keywordsContainer = document.getElementById('keywords-container');
+                    var newKeywordInput = document.createElement('input');
+                    newKeywordInput.type = 'text';
+                    newKeywordInput.name = 'keyword' + (keywordsContainer.children.length + 1);
+                    newKeywordInput.id = 'keyword' + (keywordsContainer.children.length + 1);
+                    keywordsContainer.appendChild(newKeywordInput);
+                });
+            </script>
+            <legend>
+                <h2>interest</h2>
+            </legend>
+            <form id="interests-form">
+                <!-- <label for="name">Interest Name:</label><br>
+            <input type="text" id="name" name="name"><br> -->
+                <div id="keywords-container2">
+                    <label for="keyword1">interest:</label><br>
+                    <input type="text" id="keyword1" name="keyword1"><br>
+                </div>
+                <button type="button" id="add-keyword2">+</button>
+            </form>
+
+            <script>
+                document.getElementById('add-keyword2').addEventListener('click', function() {
+                    var keywordsContainer = document.getElementById('keywords-container2');
+                    var newKeywordInput = document.createElement('input');
+                    newKeywordInput.type = 'text';
+                    newKeywordInput.name = 'keyword' + (keywordsContainer.children.length + 1);
+                    newKeywordInput.id = 'keyword' + (keywordsContainer.children.length + 1);
+                    keywordsContainer.appendChild(newKeywordInput);
+                    keywordsContainer.appendChild(document.createElement('br'));
+                });
+            </script>
+            <form>
+                <H3>lANGUAGE:</H3>
+                <input type="checkbox" id="english" name="languages" value="English">
+                <label for="english">English</label><br>
+                <input type="checkbox" id="spanish" name="languages" value="Spanish">
+                <label for="spanish">Spanish</label><br>
+                <input type="checkbox" id="french" name="languages" value="French">
+                <label for="french">French</label><br>
+                <input type="checkbox" id="german" name="languages" value="German">
+                <label for="german">German</label><br>
+                <input type="checkbox" id="chinese" name="languages" value="Chinese">
+                <label for="chinese">Chinese</label><br>
+                <input type="checkbox" id="japanese" name="languages" value="Japanese">
+                <label for="japanese">Japanese</label><br>
+
+                <input type="checkbox" id="korean" name="languages" value="Korean">
+                <label for="korean">Korean</label><br>
+                <input type="checkbox" id="italian" name="languages" value="Italian">
+                <label for="italian">Italian</label><br>
+                <input type="checkbox" id="portuguese" name="languages" value="Portuguese">
+                <label for="portuguese">Portuguese</label><br>
+                <input type="checkbox" id="russian" name="languages" value="Russian">
+                <label for="russian">Russian</label><br>
+                <input type="checkbox" id="arabic" name="languages" value="Arabic">
+                <label for="arabic">Arabic</label><br>
+            </form>
+        </fieldset>
+    </div>
+
+    <div id="PAGE4">
+        <fieldset>
+            <legend>
+                <h2>PROJECT'S</h2>
+            </legend>
+            <FORM>
+                <form id="projects-form">
+                    <label for="name4">Project Name:</label><br>
+                    <input type="text" id="name4" name="name4"><br>
+
+                    <label for="startDate4">Start Date:</label><br>
+                    <input type="date" id="startDate4" name="startDate4"><br>
+
+                    <label for="endDate4">End Date:</label><br>
+                    <input type="date" id="endDate4" name="endDate4"><br>
+
+                    <label for="description4">Description:</label><br>
+                    <textarea id="description4" name="description4"></textarea><br>
+
+                    <h2>Highlights:</h2>
+                    <div id="highlights-container">
+                        <label for="highlight4">Highlight 1:</label><br>
+                        <input type="text" id="highlight4" name="highlight4"><br>
+                    </div>
+                    <button type="button" id="add-highlight4">+</button>
+                    <label for="url">URL:</label><br>
+                    <input type="url" id="url" name="url"><br>
+
+                </form>
+                <script>
+                    document.getElementById('add-highlight4').addEventListener('click', function() {
+                        var highlightsContainer = document.getElementById('highlights-container');
+                        var newHighlightInput = document.createElement('input');
+                        newHighlightInput.type = 'text';
+                        newHighlightInput.name = 'highlight' + (highlightsContainer.children.length + 1);
+                        newHighlightInput.id = 'highlight' + (highlightsContainer.children.length + 1);
+                        highlightsContainer.appendChild(newHighlightInput);
+                        highlightsContainer.appendChild(document.createElement('br'));
+                    });
+                </script>
+            </FORM>
+            <form id="references-form">
+                <h2>References:</h2>
+                <div id="references-container">
+                    <label for="name5">Name:</label><br>
+                    <input type="text" id="name5" name="name5"><br>
+                    <label for="reference1">Reference:</label><br>
+                    <textarea id="reference1" name="reference1"></textarea><br>
+                </div>
+                <button type="button" id="add-reference">+</button>
+            </form>
+
+            <script>
+                document.getElementById('add-reference').addEventListener('click', function() {
+                    var referencesContainer = document.getElementById('references-container');
+                    var newReferenceDiv = document.createElement('div');
+                    newReferenceDiv.innerHTML = `
+                    <label for="name${referencesContainer.children.length + 1}">Name:</label><br>
+                    <input type="text" id="name${referencesContainer.children.length + 1}" name="name${referencesContainer.children.length + 1}"><br>
+                    <label for="reference${referencesContainer.children.length + 1}">Reference:</label><br>
+                    <textarea id="reference${referencesContainer.children.length + 1}" name="reference${referencesContainer.children.length + 1}"></textarea><br>
+                  `;
+                    referencesContainer.appendChild(newReferenceDiv);
+                });
+            </script>
+        </fieldset>
+    </div>
+    <!-- buttons -->
+    <button>SUBMIT</button>
+    <input type="submit " value="Submit ">
+    <script src="logic.js "></script>
+</body>
+</html>
