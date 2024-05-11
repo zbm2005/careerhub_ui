@@ -1,6 +1,6 @@
 
 
-![Logo](https://i.ibb.co/yy3M32C/1-cropped-removebg-preview-1.png)
+![Logo](https://i.ibb.co/Z6t4qV0/1-cropped.png)
 
 
 ## Badges
