@@ -64,7 +64,7 @@ Install my-project with npm
 - [Biswajit Malakar (zbm2005)](https://github.com/zmb2005)
 - [Arnav Ghosh (NotoriousArnav)](https://github.com/NotoriousArnav)
 - [Jyotishka Bhaduri (JyXXux)](https://github.com/JyXXux)
-- 
+- [Bhaskar Mandal (mbittu00)](https://github.com/mbittu00)
 ## Support
 
 ![Discord](https://img.shields.io/discord/1232734535267913738?style=social&logo=discord)
