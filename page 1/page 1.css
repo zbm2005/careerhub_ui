@@ -1,12 +1,13 @@
 body {
+  color:rgb(5, 9, 8);
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding:10px;
 }
 
 header {
 	/* background-color: #000000; */
-	color: #ffffff;
+	color: #1b1111;
 	padding: 20px;
 }
 
@@ -26,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #ffffff;
+	color: #2e2323;
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 5px;
@@ -34,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #fff5f5;
+	background-color: #0b0606;
 }
 
 main {
@@ -49,8 +50,8 @@ main {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: rgb(255, 254, 254);
-    color: rgb(255, 255, 255);
+    background-color: rgb(20, 11, 11);
+    color: rgb(1, 0, 0);
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
@@ -60,7 +61,7 @@ main {
     width: 100%;
     height: auto;
     /*background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.7) ), url(m);*/
-    background-image: radial-gradient(circle at center center, transparent 0%,rgb(33,33,33) 99%),repeating-linear-gradient(0deg, rgba(163, 163, 163,0.2) 0px, rgba(163, 163, 163,0.2) 1px,transparent 1px, transparent 6px),repeating-linear-gradient(90deg, rgba(163, 163, 163,0.2) 0px, rgba(163, 163, 163,0.2) 1px,transparent 1px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(255, 255, 255));
+    background-image: radial-gradient(circle at center center, transparent 0%,rgb(33,33,33) 99%),repeating-linear-gradient(0deg, rgba(163, 163, 163,0.2) 0px, rgba(255, 226, 226, 0.2) 1px,transparent 1px, transparent 6px),repeating-linear-gradient(90deg, rgba(163, 163, 163,0.2) 0px, rgba(255, 233, 233, 0.2) 1px,transparent 1px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(0, 0, 0));
     background-size: cover;
     background-position: center;
 }
@@ -71,7 +72,7 @@ main {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: #3e3232;
+    background-color: #ffffff;
     overflow: hidden;
     z-index: -1;
   }
@@ -110,8 +111,8 @@ main section {
 }
 
 footer {
-	background-color: #282626;
-	color: #897e7e;
+	background-color: #070606;
+	color: #b9afaf;
 	padding: 20px;
 	text-align: center;
 }
